@@ -1,0 +1,60 @@
+# Blender MTL File: 'Couch.blend'
+# Material Count: 5
+
+newmtl Chrome
+Ns 900.000000
+Ka 0.900000 0.900000 0.900000
+Kd 0.345302 0.345302 0.345302
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl CouchFabric
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/hailey/Downloads/Blender_Couch_Tutorial-master/textures/leather_white_2k_png/leather_white_nor_2k.png
+map_Kd /Users/hailey/Downloads/Blender_Couch_Tutorial-master/textures/leather_white_2k_png/leather_white_diff_2k.png
+
+newmtl Materiala
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/hailey/Downloads/Blender_Couch_Tutorial-master/textures/FabricUpholsteryMossPlainWeave001/REGULAR/1K/FabricUpholsteryMossPlainWeave001_NRM_1K.jpg
+map_Kd /Users/hailey/Downloads/Blender_Couch_Tutorial-master/textures/FabricUpholsteryMossPlainWeave001/REGULAR/1K/FabricUpholsteryMossPlainWeave001_COL_VAR3_1K.jpg
+
+newmtl Materialb
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/hailey/Downloads/Blender_Couch_Tutorial-master/textures/FabricUpholsteryMossPlainWeave001/REGULAR/1K/FabricUpholsteryMossPlainWeave001_NRM_1K.jpg
+map_Kd /Users/hailey/Downloads/Blender_Couch_Tutorial-master/textures/FabricUpholsteryMossPlainWeave001/REGULAR/1K/FabricUpholsteryMossPlainWeave001_COL_VAR3_1K.jpg
+
+newmtl Materialc
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/hailey/Downloads/Blender_Couch_Tutorial-master/textures/FabricUpholsteryMossPlainWeave001/REGULAR/1K/FabricUpholsteryMossPlainWeave001_NRM_1K.jpg
+map_Kd /Users/hailey/Downloads/Blender_Couch_Tutorial-master/textures/FabricUpholsteryMossPlainWeave001/REGULAR/1K/FabricUpholsteryMossPlainWeave001_COL_VAR3_1K.jpg

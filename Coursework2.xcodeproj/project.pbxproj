@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D28E336E274A096C00AC63E9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D28E336D274A096C00AC63E9 /* main.cpp */; };
+		D28E3376274A09A600AC63E9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28E3375274A09A600AC63E9 /* OpenGL.framework */; };
+		D28E3378274A09B100AC63E9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28E3377274A09B100AC63E9 /* GLUT.framework */; };
+		D28E337A274A09D600AC63E9 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D28E3379274A09D600AC63E9 /* libGLEW.2.2.0.dylib */; };
+		D28E3388274BD17100AC63E9 /* window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D28E3387274BD17100AC63E9 /* window.cpp */; };
+		D28E351F274D1CF900AC63E9 /* table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D28E351E274D1CF900AC63E9 /* table.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,48 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D20ECDE62760956600018004 /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = "<group>"; };
+		D20ECDE72760A19800018004 /* paper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = paper; sourceTree = "<group>"; };
+		D20ECDE82760B63000018004 /* curtain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = curtain; sourceTree = "<group>"; };
+		D2219F7827567E75004BE8F6 /* couch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = couch; sourceTree = "<group>"; };
+		D2219F792758EB4A004BE8F6 /* couch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = couch; sourceTree = "<group>"; };
+		D2219F80275B65FC004BE8F6 /* starry-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starry-night.png"; sourceTree = "<group>"; };
+		D233A9272763260D0085998B /* plant */ = {isa = PBXFileReference; lastKnownFileType = folder; path = plant; sourceTree = "<group>"; };
+		D233A9282763260D0085998B /* telescope */ = {isa = PBXFileReference; lastKnownFileType = folder; path = telescope; sourceTree = "<group>"; };
+		D25B57A427638F7B00384C8B /* fan.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fan.mtl; sourceTree = "<group>"; };
+		D2808C9F275B889200CDC583 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		D2808CA0275B889200CDC583 /* sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheet.png; sourceTree = "<group>"; };
 		D28E336A274A096C00AC63E9 /* Coursework2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Coursework2; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28E336D274A096C00AC63E9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D28E3375274A09A600AC63E9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		D28E3377274A09B100AC63E9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		D28E3379274A09D600AC63E9 /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
+		D28E337E274A14C900AC63E9 /* obj_loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = obj_loader.h; sourceTree = "<group>"; };
+		D28E337F274A14F600AC63E9 /* material.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		D28E3380274A17EB00AC63E9 /* animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = animation.h; sourceTree = "<group>"; };
+		D28E3382274A19A800AC63E9 /* fan.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fan.obj; sourceTree = "<group>"; };
+		D28E3387274BD17100AC63E9 /* window.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = window.cpp; sourceTree = "<group>"; };
+		D28E3389274BD18100AC63E9 /* window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
+		D28E338A274BF33500AC63E9 /* texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+		D28E338C274BF4B100AC63E9 /* gogh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gogh.png; sourceTree = "<group>"; };
+		D28E338D274BF5D900AC63E9 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		D28E338E274BF78500AC63E9 /* build.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = build.h; sourceTree = "<group>"; };
+		D28E338F274BF98000AC63E9 /* solid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = solid.h; sourceTree = "<group>"; };
+		D28E351B274CD35200AC63E9 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
+		D28E351E274D1CF900AC63E9 /* table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = table.cpp; sourceTree = "<group>"; };
+		D28E3520274D1D0D00AC63E9 /* table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
+		D2B280442760F92600716B71 /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
+		D2B280452760FB2500716B71 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		D2EAEEDE275C67FD005BA0EC /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		D2EF4C59276491D3003E1DF7 /* floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor.png; sourceTree = "<group>"; };
+		D2EF4C5C2764A90D003E1DF7 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		D2EF4C602764C88B003E1DF7 /* skybox */ = {isa = PBXFileReference; lastKnownFileType = folder; path = skybox; sourceTree = "<group>"; };
+		D2EF4C622764DF3E003E1DF7 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		D2EF4C632765F0AF003E1DF7 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
+		D2F8CF57275FA4D8005A12D6 /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
+		D2F8CF58275FAB8C005A12D6 /* vangogh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vangogh.png; sourceTree = "<group>"; };
+		D2F8CF59275FAB8C005A12D6 /* sunflower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunflower.png; sourceTree = "<group>"; };
+		D2F8CF5A27607615005A12D6 /* tv */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28E337A274A09D600AC63E9 /* libGLEW.2.2.0.dylib in Frameworks */,
+				D28E3378274A09B100AC63E9 /* GLUT.framework in Frameworks */,
+				D28E3376274A09A600AC63E9 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +91,7 @@
 			children = (
 				D28E336C274A096C00AC63E9 /* Coursework2 */,
 				D28E336B274A096C00AC63E9 /* Products */,
+				D28E3374274A09A600AC63E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +106,88 @@
 		D28E336C274A096C00AC63E9 /* Coursework2 */ = {
 			isa = PBXGroup;
 			children = (
+				D28E338B274BF46000AC63E9 /* texture */,
+				D28E337D274A14AF00AC63E9 /* lib */,
+				D28E337B274A0ED700AC63E9 /* data */,
 				D28E336D274A096C00AC63E9 /* main.cpp */,
 			);
 			path = Coursework2;
+			sourceTree = "<group>";
+		};
+		D28E3374274A09A600AC63E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D28E3379274A09D600AC63E9 /* libGLEW.2.2.0.dylib */,
+				D28E3377274A09B100AC63E9 /* GLUT.framework */,
+				D28E3375274A09A600AC63E9 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D28E337B274A0ED700AC63E9 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				D233A9272763260D0085998B /* plant */,
+				D233A9282763260D0085998B /* telescope */,
+				D20ECDE82760B63000018004 /* curtain */,
+				D20ECDE72760A19800018004 /* paper */,
+				D2F8CF5A27607615005A12D6 /* tv */,
+				D2219F792758EB4A004BE8F6 /* couch */,
+				D28E3381274A198700AC63E9 /* fan */,
+				D28E3387274BD17100AC63E9 /* window.cpp */,
+				D28E3389274BD18100AC63E9 /* window.h */,
+				D28E351E274D1CF900AC63E9 /* table.cpp */,
+				D28E3520274D1D0D00AC63E9 /* table.h */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		D28E337D274A14AF00AC63E9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D28E351B274CD35200AC63E9 /* glm */,
+				D28E337E274A14C900AC63E9 /* obj_loader.h */,
+				D28E337F274A14F600AC63E9 /* material.h */,
+				D28E3380274A17EB00AC63E9 /* animation.h */,
+				D28E338A274BF33500AC63E9 /* texture.h */,
+				D28E338D274BF5D900AC63E9 /* stb_image.h */,
+				D28E338E274BF78500AC63E9 /* build.h */,
+				D28E338F274BF98000AC63E9 /* solid.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D28E3381274A198700AC63E9 /* fan */ = {
+			isa = PBXGroup;
+			children = (
+				D25B57A427638F7B00384C8B /* fan.mtl */,
+				D28E3382274A19A800AC63E9 /* fan.obj */,
+			);
+			path = fan;
+			sourceTree = "<group>";
+		};
+		D28E338B274BF46000AC63E9 /* texture */ = {
+			isa = PBXGroup;
+			children = (
+				D2EF4C632765F0AF003E1DF7 /* basketball.png */,
+				D2EF4C622764DF3E003E1DF7 /* ground.png */,
+				D2EF4C602764C88B003E1DF7 /* skybox */,
+				D2EF4C5C2764A90D003E1DF7 /* ball.png */,
+				D2EF4C59276491D3003E1DF7 /* floor.png */,
+				D2B280452760FB2500716B71 /* flower.png */,
+				D2B280442760F92600716B71 /* sound.png */,
+				D20ECDE62760956600018004 /* friends.png */,
+				D2F8CF59275FAB8C005A12D6 /* sunflower.png */,
+				D2F8CF58275FAB8C005A12D6 /* vangogh.png */,
+				D2F8CF57275FA4D8005A12D6 /* door.png */,
+				D2EAEEDE275C67FD005BA0EC /* book.png */,
+				D2808CA0275B889200CDC583 /* sheet.png */,
+				D2808C9F275B889200CDC583 /* wood.png */,
+				D2219F80275B65FC004BE8F6 /* starry-night.png */,
+				D2219F7827567E75004BE8F6 /* couch */,
+				D28E338C274BF4B100AC63E9 /* gogh.png */,
+			);
+			path = texture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D28E336E274A096C00AC63E9 /* main.cpp in Sources */,
+				D28E3388274BD17100AC63E9 /* window.cpp in Sources */,
+				D28E351F274D1CF900AC63E9 /* table.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +369,13 @@
 		D28E3372274A096C00AC63E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,7 +383,13 @@
 		D28E3373274A096C00AC63E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
